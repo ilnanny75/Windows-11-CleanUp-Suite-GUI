@@ -6,6 +6,9 @@
 
 Una suite di manutenzione professionale con interfaccia grafica (GUI) progettata per mantenere Windows 11 scattante e pulito. Sostituisce i vecchi script .bat con un'applicazione moderna e centralizzata.
 
+## 📸 Anteprima Interfaccia
+![Screenshot Applicazione](screenshot.png)
+
 ## ✨ Funzionalità principali
 - **🔹 Pulizia Base**: Elimina i file temporanei dell'utente e del sistema.
 - **🔹 Pulizia Profonda**: Rimuove la cache Prefetch e i file di log accumulati.
