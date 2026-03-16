@@ -1,27 +1,25 @@
-# 🧹 Windows 11 CleanUp Suite
+@'
+# 🧹 Windows 11 CleanUp Suite GUI
 
-![Version](https://img.shields.io/badge/version-1.1-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%2011%20%7C%2010-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Platform](https://img.shields.io/badge/platform-Windows%2011-blue.svg)
 
-Una suite di pulizia e manutenzione per Windows 11 con interfaccia grafica moderna (Dark Mode) e log in tempo reale.
+Una suite di manutenzione professionale con interfaccia grafica (GUI) progettata per mantenere Windows 11 scattante e pulito. Sostituisce i vecchi script .bat con un'applicazione moderna e centralizzata.
 
-## 🚀 Caratteristiche
-- **Pulizia Base**: Rimozione rapida dei file temporanei utente e di sistema.
-- **Pulizia Profonda**: Eliminazione dei file Prefetch e di tutti i log di Windows.
-- **Pulizia Massima**: Ottimizzazione profonda tramite strumenti di sistema come **SFC Scannow** e **DISM** (WinSxS cleanup).
+## ✨ Funzionalità principali
+- **🔹 Pulizia Base**: Elimina i file temporanei dell'utente e del sistema.
+- **🔹 Pulizia Profonda**: Rimuove la cache Prefetch e i file di log accumulati.
+- **🔹 Pulizia Massima**: Esegue il ripristino dell'integrità del sistema (`SFC`) e la pulizia avanzata dell'immagine di Windows (`DISM`).
 
-## ⚠️ Disclaimer (Responsabilità)
-L'utente utilizza questo software a proprio rischio e pericolo. L'autore non si assume alcuna responsabilità per eventuali perdite di dati, instabilità del sistema o danni derivanti dall'uso improprio di questi strumenti. Si consiglia sempre di effettuare un punto di ripristino prima di operazioni "Massime".
+## ⚠️ IMPORTANTE: Come avviare il programma
+Per funzionare correttamente, l'applicazione deve avere i permessi per modificare le cartelle di sistema:
+1. Scarica il file **`CleanUpSuite.exe`**.
+2. Fai click con il tasto destro sul file.
+3. Seleziona **"Esegui come amministratore"**.
 
-## 🛠️ Requisiti
-- Windows 11 (consigliato) o Windows 10
-- Diritti di Amministratore (necessari per le pulizie di sistema e DISM)
-
-## 📦 Installazione e Uso
-1. Scarica l'eseguibile `CleanUpSuite.exe` dalla sezione Releases.
-2. Clicca col tasto destro e seleziona **"Esegui come amministratore"**.
-3. Scegli il livello di pulizia desiderato.
+## ⚖️ Disclaimer (Responsabilità)
+Questo software viene fornito "così com'è", senza garanzie di alcun tipo. L'autore **non è responsabile** per eventuali danni, perdite di dati o problemi derivanti dall'uso dell'applicazione. L'utente accetta di utilizzare lo strumento a proprio rischio. Si consiglia vivamente di creare un punto di ripristino prima di eseguire la "Pulizia Massima".
 
 ---
-*Creato con ❤️ da [ilnanny75](https://github.com/ilnanny75)*
+*Sviluppato da [ilnanny75](https://github.com/ilnanny75)*
+'@ | Out-File -FilePath "README.md" -Encoding utf8
